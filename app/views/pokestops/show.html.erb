@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pokestop.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @pokestop.location %>
+</p>
+
+<%= link_to 'Edit', edit_pokestop_path(@pokestop) %> |
+<%= link_to 'Back', pokestops_path %>
